@@ -15,9 +15,10 @@
     "./dist"
   ],
   "main": "./dist/index.js",
-  "exports":"./dist/index.js",
+  "exports": "./dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "@codecb/prettierrc": "0.0.1",
