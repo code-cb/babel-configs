@@ -1,0 +1,36 @@
+{
+  "name": "@codecb/babel-jest",
+  "version": "0.0.4",
+  "license": "MIT",
+  "author": {
+    "email": "icodemyownlife@gmail.com",
+    "name": "ICodeMyOwnLife"
+  },
+  "repository": {
+    "directory": "packages/jest",
+    "type": "git",
+    "url": "https://github.com/code-cb/babel-configs.git"
+  },
+  "files": [
+    "./dist"
+  ],
+  "main": "./dist/index.js",
+  "exports":"./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@codecb/prettierrc": "0.0.1",
+    "@codecb/tsconfigs": "0.0.10",
+    "babel-jest": "^29.3",
+    "prettier": "^2.8",
+    "typescript": "^4.9"
+  },
+  "peerDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*",
+    "babel-jest": "^29.3"
+  },
+  "prettier": "@codecb/prettierrc"
+}
